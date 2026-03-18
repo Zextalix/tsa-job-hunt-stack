@@ -1,55 +1,156 @@
-# TSA Job Hunt Stack — Cowork Master README
+# TSA Job Hunt Stack v2.0
+### An AI-Powered Job Hunt Workflow System
 
-## Who I Am
-**James Kelly, PMP®**
-- Bilingual (English / Japanese, N2 equivalent)
-- Based in Kitami, Hokkaido, Japan
-- Founder, Flo Masta Jay Consultings LLC (FMJC LLC)
-- Founder, Aquarius Aeon Medias LLC
-- Certifications: PMP® (PMI, July 2023)
-- LinkedIn: https://www.linkedin.com/in/shonin/
-- Email: fmjcllc@gmail.com | jamesk7916@gmail.com
+*Created by James Kelly, PMP - Flo Masta Jay Consultings LLC*
+*Part of the W2W Philanthropic Project*
 
-## How This Folder Works
-This folder is the **single source of truth** for my entire job hunting operation.
-Cowork reads this README at the start of every session before doing anything else.
+---
 
-## Folder Map
-| Folder | Purpose |
-|--------|---------|
-| `00_CONTEXT/` | My identity, resume, values, manifesto — READ FIRST every session |
-| `01_ASSISTANTS/` | Instructions for each TSA AI assistant role |
-| `02_LIVE_TRACKER/` | The live Job Hunt Template spreadsheet |
-| `03_COVER_LETTERS/` | Generated cover letters (output) |
-| `04_JOB_LEADS/` | Saved job postings and info cards (output) |
-| `05_OUTPUTS/` | Final deliverables for sharing/submitting |
+## What Is This?
 
-## TSA Assistant Roster
-| Assistant | File | Primary Role |
-|-----------|------|-------------|
-| TSA J Search | `01_ASSISTANTS/TSA_J_Search.md` | Job board search, Top 10 leads, Job Info Cards |
-| TSA J Leads | `01_ASSISTANTS/TSA_J_Leads.md` | Lead triage, tracker updates, application pipeline |
-| TSA Port | `01_ASSISTANTS/TSA_Port.md` | Portfolio site, GitHub, cover letters, resume tailoring |
-| TSA Flo | `01_ASSISTANTS/TSA_Flo.md` | Workflow coordination, scheduling, life flow, gamification |
+The Job Hunt Stack is a complete, structured job-hunting system designed to work with AI assistants (Claude, ChatGPT, or any modern LLM). It gives you four specialized AI agents, a proven folder structure, session management protocols, and a step-by-step workflow that takes you from "I need a job" to "I got an offer."
 
-## Session Startup Protocol (MANDATORY)
-Before executing ANY task:
-1. Read `00_CONTEXT/James_Kelly_Profile.md`
-2. Read `00_CONTEXT/AAM_ETF_AIRI.md`
-3. Identify which assistant role applies and load from `01_ASSISTANTS/`
-4. Show a brief plan before executing — do not proceed without approval
-5. Never permanently delete any file without explicit permission
-6. Ask clarifying questions if anything is ambiguous
+This isn't a prompt library. It's an operating system for your job search.
 
-## Output Rules
-- Japanese content: Japanese first, then English in parentheses
-- Non-USD currencies: original first, then USD equivalent in parentheses
-- File naming: `YYYY-MM-DD_[Type]_[Company].[ext]`
-- Always save to the correct subfolder (03, 04, or 05)
+---
 
-## Core Values (Non-Negotiable)
-Prioritize jobs and actions aligned with:
-- Maslow's Theory Z
-- The Aquarius Aeon Manifesto (AAM)
-- Highly Sensitive Person (HSP) awareness
-- Servant Leadership principles
+## What's Inside
+
+When you download the zip, you get a ready-to-use workspace:
+
+```
+Job Hunt Stack/
+├── README.md
+├── Cold Start Primer.md
+├── Archive Protocol.md
+├── Master Lessons Learned.md
+├── CONTEXT_SEED.md
+├── Identity/
+│   └── [User] Profile.md
+├── Rules/
+│   └── Global Instructions.md
+├── Agents/
+│   ├── TSA J Search.md
+│   ├── TSA J Leads.md
+│   ├── TSA Port.md
+│   └── TSA Flo.md
+├── 02_LIVE_TRACKER/
+│   └── Job Hunt Template.xlsx
+├── 03_COVER_LETTERS/
+├── 04_JOB_LEADS/
+├── 05_OUTPUTS/
+├── 06_ARCHIVE/
+├── DUPE/
+│   └── README.md
+└── delete.me/
+    └── README.md
+```
+
+---
+
+## The Four Agents
+
+| Agent | What It Does |
+|-------|-------------|
+| **TSA J Search** | Scans job boards, identifies your Top 10 leads, produces Job Info Cards with deep company research |
+| **TSA J Leads** | Receives leads, evaluates them against your priorities, logs them to the tracker, manages the full pipeline |
+| **TSA Port** | Writes tailored cover letters, adapts your resume per job, builds and grows your portfolio and GitHub presence |
+| **TSA Flo** | Coordinates the whole system: scheduling, prioritization, progress tracking, and making sure you don't burn out |
+
+---
+
+## Quick Start (5 Minutes)
+
+**Option A: Let the AI set it up for you**
+
+1. Download `TSA_JobHunt_v2.0.zip` and unzip it
+2. Open your AI assistant (Claude, ChatGPT, etc.)
+3. Give it the `CONTEXT_SEED.md` file (paste the contents or upload it)
+4. Say: "Please read this and guide me through setting up my Job Hunt Stack."
+5. Follow the AI's prompts to fill in your profile and configure the system
+
+**Option B: Set it up manually**
+
+1. Download and unzip
+2. Fill in `Identity/[User] Profile.md` with your professional details
+3. Customize `Rules/Global Instructions.md` with your preferences
+4. Read `Cold Start Primer.md` to understand the session lifecycle
+5. Start your first session by loading an agent file into your AI assistant
+
+---
+
+## Two Ways to Use This System
+
+### Mode A: "Run It Like Flo"
+
+Use the system exactly as shipped. The agents, rules, folder structure, and protocols are battle-tested across 50+ real job applications. Just fill in your own identity profile and start hunting.
+
+Best for: People who want a proven system and don't want to tinker.
+
+### Mode B: "Make It Yours"
+
+Keep the structural framework (4 agents, session lifecycle, folder structure, tracker) but customize everything else. Change the evaluation rubric weights, rename the agents, adjust the workflow to match your situation, add your own values framework.
+
+Best for: People who want the skeleton but have their own approach to flesh it out.
+
+---
+
+## The Workflow
+
+See `docs/WORKFLOW.md` for the complete 7-step progression, but here's the overview:
+
+1. **Source leads** using Teal, Simplify Jobs, or other aggregators
+2. **Build your resume** by searching jobs and collecting ATS keywords
+3. **Create your Master ATS List** from the resume template
+4. **Refine custom materials** for each lead (resume + cover letter pairs)
+5. **Color-scan all leads** against your personal preferences
+6. **Mass apply** for all relevant leads following agent protocols
+7. **Expand** past the initial sources to LinkedIn, specialty boards, and networking
+
+---
+
+## The Session Lifecycle
+
+See `docs/WALKTHROUGH.md` for the full tutorial, but the cycle is:
+
+```
+Global Instructions (hard rules, always loaded)
+        |
+Cold Start Primer (session boot, context check)
+        |
+Load Agent (whichever agent fits today's task)
+        |
+Do the Work (with agent guidance)
+        |
+Lessons Learned (capture what you learned)
+        |
+Archive Protocol (close the session cleanly)
+        |
+Next Session (everything carries forward)
+```
+
+This cycle is what prevents chat amnesia. Every session builds on the last.
+
+---
+
+## What You Need
+
+- Any modern AI assistant (Claude recommended, but ChatGPT, Gemini, or others work)
+- A way to give the AI your files (Cowork, Projects, file upload, or paste)
+- A spreadsheet app that can open .xlsx files
+- About 30 minutes for initial setup
+
+---
+
+## Credits & License
+
+Created by **James Kelly, PMP** (Flo Masta Jay Consultings LLC) as part of the **W2W (Worthy to Wealthy) Philanthropic Project**.
+
+This system is free for personal use. If it helps you land a job, pay it forward.
+
+For questions, consulting, or support: fmjcllc@gmail.com
+
+---
+
+*TSA Job Hunt Stack v2.0 | 2026*
+*"The infrastructure flows so the work can flow."*
