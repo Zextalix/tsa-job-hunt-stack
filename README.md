@@ -93,14 +93,16 @@ Keep the structural framework (4 agents, session lifecycle, folder structure, tr
 
 Best for: People who want the skeleton but have their own approach to flesh it out.
 
+Just tell your chosen model which option you would prefer before starting.
+
 ---
 
 ## The Workflow
 
 See `docs/WORKFLOW.md` for the complete 7-step progression, but here's the overview:
 
-1. **Source leads** using Teal, Simplify Jobs, or other aggregators
-2. **Build your resume** by searching jobs and collecting ATS keywords
+1. **Source leads** using Simplify Jobs, Teal, or other aggregators (along with their browser extensions for ATS comparison & application auto-fill tools)
+2. **Build your resume** by searching jobs and collecting ATS keywords 
 3. **Create your Master ATS List** from the resume template
 4. **Refine custom materials** for each lead (resume + cover letter pairs)
 5. **Color-scan all leads** against your personal preferences
